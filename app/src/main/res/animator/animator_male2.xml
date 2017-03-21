@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--性别初始值为male是使用-->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:ordering="together">
+
+    <objectAnimator
+        android:duration="300"
+        android:interpolator="@android:anim/bounce_interpolator"
+        android:propertyName="translationX"
+        android:valueFrom="342"
+        android:valueTo="0"
+        android:valueType="floatType"/>
+
+    <!--可以根据需求添加旋转效果-->
+    <!--<objectAnimator
+        android:duration="300"
+        android:propertyName="rotation"
+        android:valueFrom="0"
+        android:valueTo="-90"
+        android:valueType="floatType">
+    </objectAnimator>-->
+</set>
